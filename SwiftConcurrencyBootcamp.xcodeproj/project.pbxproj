@@ -7,32 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22434B742851D8D000B36F3C /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22434B732851D8D000B36F3C /* TaskBootcamp.swift */; };
+		22434B7628536BB200B36F3C /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22434B7528536BB200B36F3C /* AsyncLetBootcamp.swift */; };
+		22434B7828577DAA00B36F3C /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22434B7728577DAA00B36F3C /* TaskGroupBootcamp.swift */; };
 		22BE6CAF284F8820005D3D48 /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6C9F284F881D005D3D48 /* SwiftConcurrencyBootcampApp.swift */; };
-		22BE6CB0284F8820005D3D48 /* SwiftConcurrencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6C9F284F881D005D3D48 /* SwiftConcurrencyBootcampApp.swift */; };
 		22BE6CB1284F8820005D3D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6CA0284F881D005D3D48 /* ContentView.swift */; };
-		22BE6CB2284F8820005D3D48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6CA0284F881D005D3D48 /* ContentView.swift */; };
 		22BE6CB3284F8820005D3D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BE6CA1284F8820005D3D48 /* Assets.xcassets */; };
-		22BE6CB4284F8820005D3D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BE6CA1284F8820005D3D48 /* Assets.xcassets */; };
+		22BE6CBE284F886E005D3D48 /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6CBD284F886E005D3D48 /* DoCatchTryThrowsBootcamp.swift */; };
+		22BE6CC1284F9AC6005D3D48 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6CC0284F9AC6005D3D48 /* DownloadImageAsync.swift */; };
+		22BE6CC328509B4A005D3D48 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6CC228509B4A005D3D48 /* AsyncAwaitBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22434B732851D8D000B36F3C /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		22434B7528536BB200B36F3C /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
+		22434B7728577DAA00B36F3C /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		22BE6C9F284F881D005D3D48 /* SwiftConcurrencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcampApp.swift; sourceTree = "<group>"; };
 		22BE6CA0284F881D005D3D48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22BE6CA1284F8820005D3D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BE6CA6284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BE6CAC284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BE6CAE284F8820005D3D48 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		22BE6CBD284F886E005D3D48 /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		22BE6CC0284F9AC6005D3D48 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		22BE6CC228509B4A005D3D48 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22BE6CA3284F8820005D3D48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22BE6CA9284F8820005D3D48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +57,12 @@
 			children = (
 				22BE6C9F284F881D005D3D48 /* SwiftConcurrencyBootcampApp.swift */,
 				22BE6CA0284F881D005D3D48 /* ContentView.swift */,
+				22BE6CBD284F886E005D3D48 /* DoCatchTryThrowsBootcamp.swift */,
+				22BE6CC0284F9AC6005D3D48 /* DownloadImageAsync.swift */,
+				22BE6CC228509B4A005D3D48 /* AsyncAwaitBootcamp.swift */,
+				22434B732851D8D000B36F3C /* TaskBootcamp.swift */,
+				22434B7528536BB200B36F3C /* AsyncLetBootcamp.swift */,
+				22434B7728577DAA00B36F3C /* TaskGroupBootcamp.swift */,
 				22BE6CA1284F8820005D3D48 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -65,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				22BE6CA6284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */,
-				22BE6CAC284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +104,6 @@
 			productReference = 22BE6CA6284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22BE6CAB284F8820005D3D48 /* SwiftConcurrencyBootcamp (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22BE6CBA284F8820005D3D48 /* Build configuration list for PBXNativeTarget "SwiftConcurrencyBootcamp (macOS)" */;
-			buildPhases = (
-				22BE6CA8284F8820005D3D48 /* Sources */,
-				22BE6CA9284F8820005D3D48 /* Frameworks */,
-				22BE6CAA284F8820005D3D48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftConcurrencyBootcamp (macOS)";
-			productName = "SwiftConcurrencyBootcamp (macOS)";
-			productReference = 22BE6CAC284F8820005D3D48 /* SwiftConcurrencyBootcamp.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,9 +115,6 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					22BE6CA5284F8820005D3D48 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					22BE6CAB284F8820005D3D48 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -147,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				22BE6CA5284F8820005D3D48 /* SwiftConcurrencyBootcamp (iOS) */,
-				22BE6CAB284F8820005D3D48 /* SwiftConcurrencyBootcamp (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -161,14 +146,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BE6CAA284F8820005D3D48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22BE6CB4284F8820005D3D48 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -176,17 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BE6CC1284F9AC6005D3D48 /* DownloadImageAsync.swift in Sources */,
+				22BE6CBE284F886E005D3D48 /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				22BE6CB1284F8820005D3D48 /* ContentView.swift in Sources */,
+				22434B742851D8D000B36F3C /* TaskBootcamp.swift in Sources */,
+				22BE6CC328509B4A005D3D48 /* AsyncAwaitBootcamp.swift in Sources */,
 				22BE6CAF284F8820005D3D48 /* SwiftConcurrencyBootcampApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22BE6CA8284F8820005D3D48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22BE6CB2284F8820005D3D48 /* ContentView.swift in Sources */,
-				22BE6CB0284F8820005D3D48 /* SwiftConcurrencyBootcampApp.swift in Sources */,
+				22434B7628536BB200B36F3C /* AsyncLetBootcamp.swift in Sources */,
+				22434B7828577DAA00B36F3C /* TaskGroupBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +302,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,64 +332,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		22BE6CBB284F8820005D3D48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UU9BN8Q98G;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kodegut.SwiftConcurrencyBootcamp;
-				PRODUCT_NAME = SwiftConcurrencyBootcamp;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		22BE6CBC284F8820005D3D48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UU9BN8Q98G;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kodegut.SwiftConcurrencyBootcamp;
-				PRODUCT_NAME = SwiftConcurrencyBootcamp;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -436,15 +354,6 @@
 			buildConfigurations = (
 				22BE6CB8284F8820005D3D48 /* Debug */,
 				22BE6CB9284F8820005D3D48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22BE6CBA284F8820005D3D48 /* Build configuration list for PBXNativeTarget "SwiftConcurrencyBootcamp (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22BE6CBB284F8820005D3D48 /* Debug */,
-				22BE6CBC284F8820005D3D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
